@@ -1,0 +1,1 @@
+Puts all the Twitter emoji cancer to an end. (Chrome/Firefox extension)

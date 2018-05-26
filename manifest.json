@@ -1,0 +1,19 @@
+{
+  "content_scripts": [
+    {
+      "css": ["content.css"],
+      "matches": [
+        "https://twitter.com/*",
+        "https://www.twitter.com/*",
+        "https://mobile.twitter.com/*"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "description": "Puts all the emoji cancer to an end!",
+  "manifest_version": 2,
+  "name": "End Twitter Cancer",
+  "short_name": "End Twitter Cancer",
+  "version": "1.0"
+}
